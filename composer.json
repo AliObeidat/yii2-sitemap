@@ -1,0 +1,22 @@
+{
+    "name": "aliobeidat/yii2-sitemap",
+    "description": "Yii2 Simple sitemap generator composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Obeidat",
+            "email": "aliobedat36@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "aliobeidat\\sitemap\\": ""
+        }
+    }
+}
